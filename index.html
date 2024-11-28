@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Check Mate - Redirecting to the main application">
+  <meta name="keywords" content="Check Mate, Streamlit, Automation, Workflow">
+  <meta name="author" content="Your Name or Organization">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Check Mate">
+  <meta property="og:description" content="Redirecting you to Check Mate's main page.">
+  <meta property="og:url" content="https://checkmatehome.info/">
+  <meta property="og:type" content="website">
   <title>Check Mate</title>
   <style>
     body {
@@ -19,15 +27,29 @@
       font-size: 3rem;
       color: #333;
     }
+    p {
+      font-size: 1.2rem;
+      color: #666;
+      margin-top: 10px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
   </style>
   <script>
-    // 3초 후 리디렉션
     setTimeout(function() {
       window.location.href = "https://checkmate.streamlit.app/";
     }, 1000);
   </script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <h1>Check Mate</h1>
+  <p>Redirecting to the main application...</p>
 </body>
 </html>
